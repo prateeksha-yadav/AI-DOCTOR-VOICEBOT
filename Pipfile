@@ -4,12 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-groq = "*"
 speechrecognition = "*"
 pydub = "*"
 pyaudio = "*"
 gtts = "*"
 gradio = "*"
+groq = "*"
 
 [dev-packages]
 

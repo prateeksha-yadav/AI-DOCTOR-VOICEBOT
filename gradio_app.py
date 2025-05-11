@@ -141,8 +141,7 @@ with gr.Blocks(
 
 if __name__ == "__main__":
     app.launch(
-        server_name="127.0.0.1",
-        server_port=7860,
-        share=False,
-        inbrowser=True
+        server_name="0.0.0.0",
+        server_port=8080,
+        share=False
     )
