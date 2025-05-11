@@ -19,6 +19,11 @@ execnet==2.1.1
 filelock==3.16.1
 flatbuffers==23.5.26
 fonttools==4.47.0
+gradio==3.50.2
+groq==0.3.0
+elevenlabs==0.2.21
+gtts==2.4.0
+python-dotenv==1.0.0
 h11==0.14.0
 idna==3.6
 importlib-resources==6.1.1
