@@ -21,7 +21,7 @@ flatbuffers==23.5.26
 fonttools==4.47.0
 gradio==3.50.2
 groq==0.3.0
-elevenlabs==0.2.21
+elevenlabs==1.0.3
 gtts==2.4.0
 python-dotenv==1.0.0
 h11==0.14.0
