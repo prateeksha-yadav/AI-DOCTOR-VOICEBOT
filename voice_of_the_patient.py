@@ -1,7 +1,7 @@
 # voice_of_the_patient.py
 import os
 import logging
-from groq.client import Groq  
+from groq import Groq
 
 # Configure logging
 logging.basicConfig(
