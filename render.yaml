@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ai-doctor
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python gradio_app.py
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: ELEVENLABS_API_KEY
+        sync: false
+    plan: free
